@@ -10,6 +10,7 @@ class App extends Component {
   render () {
     return (
       <div>
+       
         <Layout>
           <Switch>
             <Route path="/checkout" component={Checkout} />
